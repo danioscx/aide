@@ -1,1 +1,1 @@
-# aide application sample
+# Wallpaper Applications
