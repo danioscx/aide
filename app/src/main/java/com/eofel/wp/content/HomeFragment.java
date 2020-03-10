@@ -1,8 +1,8 @@
 package com.eofel.wp.content;
 
 import android.os.Bundle;
-import android.support.design.widget.AppBarLayout;
-import android.support.v7.widget.RecyclerView;
+import com.google.android.material.appbar.AppBarLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import android.util.Log;
 import com.arlib.floatingsearchview.FloatingSearchView;
 import com.eofel.wp.R;
@@ -16,9 +16,8 @@ import org.json.JSONException;
 import org.json.JSONArray;
 import java.util.ArrayList;
 import com.eofel.wp.utils.ItemContent;
-import android.support.v7.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import com.eofel.wp.bind.MobileLegends;
-import android.widget.Toast;
 import com.eofel.wp.bind.PubgMobile;
 import com.eofel.wp.bind.FreeFire;
 import com.google.android.gms.ads.AdView;

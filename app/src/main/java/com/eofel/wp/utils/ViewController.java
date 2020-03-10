@@ -1,6 +1,6 @@
 package com.eofel.wp.utils;
 
-import android.support.v4.app.Fragment;
+import androidx.fragment.app.Fragment;
 import com.arlib.floatingsearchview.FloatingSearchView;
 import android.content.Context;
 import android.util.Log;

@@ -5,8 +5,8 @@ import android.view.LayoutInflater;
 import android.view.ViewGroup;
 import android.os.Bundle;
 import com.eofel.wp.R;
-import android.support.v4.app.Fragment;
-import android.support.v7.widget.RecyclerView;
+
+import androidx.recyclerview.widget.RecyclerView;
 import org.json.JSONObject;
 import org.json.JSONArray;
 import com.eofel.wp.utils.JsonLoader;
@@ -15,8 +15,8 @@ import java.util.ArrayList;
 import com.eofel.wp.utils.ItemContent;
 import com.eofel.wp.bind.FlexBox;
 import com.eofel.wp.bind.SpaceLayout;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v4.view.ViewCompat;
+
+import androidx.core.view.ViewCompat;
 import android.content.Intent;
 import com.eofel.wp.views.ShowImage;
 import com.arlib.floatingsearchview.FloatingSearchView;

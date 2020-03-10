@@ -1,7 +1,7 @@
 package com.eofel.wp.bind;
 
-import android.support.v7.widget.RecyclerView;
-import android.widget.AdapterView.OnItemClickListener;
+import androidx.recyclerview.widget.RecyclerView;
+
 import com.eofel.wp.R;
 import com.eofel.wp.utils.ItemContent;
 import java.util.ArrayList;

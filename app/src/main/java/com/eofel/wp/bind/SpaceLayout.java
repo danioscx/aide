@@ -1,8 +1,8 @@
 package com.eofel.wp.bind;
 
-import android.support.v7.widget.GridLayoutManager;
+import androidx.recyclerview.widget.GridLayoutManager;
 import android.content.Context;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 
 public class SpaceLayout extends GridLayoutManager {
 	

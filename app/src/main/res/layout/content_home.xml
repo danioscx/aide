@@ -8,7 +8,7 @@
 	android:layout_height="match_parent"
 	android:orientation="vertical">
 
-	<android.support.v7.widget.CardView
+	<androidx.cardview.widget.CardView
 		xmlns:card_view="http://schemas.android.com/apk/res-auto"
 		android:layout_width="match_parent"
 		android:layout_marginLeft="5dp"
@@ -16,7 +16,7 @@
 		card_view:cardCornerRadius="4dp"
 		android:layout_height="wrap_content">
 
-		<android.support.design.widget.CoordinatorLayout
+		<androidx.coordinatorlayout.widget.CoordinatorLayout
 			android:layout_width="match_parent"
 			android:layout_height="40dp"
 			android:padding="5dp">
@@ -39,9 +39,9 @@
 				android:padding="5dp"
 				android:layout_gravity="right|end"/>
 
-		</android.support.design.widget.CoordinatorLayout>
+		</androidx.coordinatorlayout.widget.CoordinatorLayout>
 
-		<android.support.v7.widget.RecyclerView
+		<androidx.recyclerview.widget.RecyclerView
 			android:id="@+id/cardView"
 			android:layout_marginLeft="5dp"
 			android:layout_marginRight="5dp"
@@ -49,11 +49,11 @@
 			android:layout_width="match_parent"
 			android:layout_height="match_parent"/>
 
-	</android.support.v7.widget.CardView>
+	</androidx.cardview.widget.CardView>
 	
 	
 	<!-- Banner Ads 1 --> 
-	<android.support.v7.widget.CardView
+	<androidx.cardview.widget.CardView
 		xmlns:card_view="http://schemas.android.com/apk/res-auto"
 		android:layout_width="match_parent"
 		android:layout_margin="5dp"
@@ -76,16 +76,16 @@
 			</com.google.android.gms.ads.AdView>
 		</RelativeLayout>
 		
-	</android.support.v7.widget.CardView>
+	</androidx.cardview.widget.CardView>
 	
-	<android.support.v7.widget.CardView
+	<androidx.cardview.widget.CardView
 		xmlns:card_view="http://schemas.android.com/apk/res-auto"
 		android:layout_width="match_parent"
 		android:layout_margin="5dp"
 		card_view:cardCornerRadius="4dp"
 		android:layout_height="wrap_content">
 
-		<android.support.design.widget.CoordinatorLayout
+		<androidx.coordinatorlayout.widget.CoordinatorLayout
 			android:layout_width="match_parent"
 			android:layout_height="40dp"
 			android:padding="5dp">
@@ -108,9 +108,9 @@
 				android:padding="5dp"
 				android:layout_gravity="right|end"/>
 
-		</android.support.design.widget.CoordinatorLayout>
+		</androidx.coordinatorlayout.widget.CoordinatorLayout>
 
-		<android.support.v7.widget.RecyclerView
+		<androidx.recyclerview.widget.RecyclerView
 			android:id="@+id/pubg"
 			android:layout_marginLeft="5dp"
 			android:layout_marginRight="5dp"
@@ -118,9 +118,9 @@
 			android:layout_width="match_parent"
 			android:layout_height="match_parent"/>
 
-	</android.support.v7.widget.CardView>
+	</androidx.cardview.widget.CardView>
 	
-	<android.support.v7.widget.CardView
+	<androidx.cardview.widget.CardView
 		xmlns:card_view="http://schemas.android.com/apk/res-auto"
 		android:layout_width="match_parent"
 		android:layout_margin="5dp"
@@ -145,16 +145,16 @@
 			
 		</RelativeLayout>
 
-	</android.support.v7.widget.CardView>
+	</androidx.cardview.widget.CardView>
 
-	<android.support.v7.widget.CardView
+	<androidx.cardview.widget.CardView
 		xmlns:card_view="http://schemas.android.com/apk/res-auto"
 		android:layout_width="match_parent"
 		android:layout_margin="5dp"
 		card_view:cardCornerRadius="4dp"
 		android:layout_height="wrap_content">
 
-		<android.support.design.widget.CoordinatorLayout
+		<androidx.coordinatorlayout.widget.CoordinatorLayout
 			android:layout_width="match_parent"
 			android:layout_height="40dp"
 			android:padding="5dp">
@@ -177,9 +177,9 @@
 				android:id="@+id/ff_btn"
 				android:layout_gravity="right|end"/>
 
-		</android.support.design.widget.CoordinatorLayout>
+		</androidx.coordinatorlayout.widget.CoordinatorLayout>
 
-		<android.support.v7.widget.RecyclerView
+		<androidx.recyclerview.widget.RecyclerView
 			android:id="@+id/ff"
 			android:layout_marginLeft="5dp"
 			android:layout_marginRight="5dp"
@@ -187,9 +187,9 @@
 			android:layout_width="match_parent"
 			android:layout_height="match_parent"/>
 
-	</android.support.v7.widget.CardView>
+	</androidx.cardview.widget.CardView>
 
-	<android.support.v7.widget.CardView
+	<androidx.cardview.widget.CardView
 		xmlns:card_view="http://schemas.android.com/apk/res-auto"
 		android:layout_width="match_parent"
 		android:layout_margin="5dp"
@@ -212,6 +212,6 @@
 			</com.google.android.gms.ads.AdView>
 		</RelativeLayout>
 
-	</android.support.v7.widget.CardView>
+	</androidx.cardview.widget.CardView>
 	
 </LinearLayout>

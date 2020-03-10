@@ -1,23 +1,20 @@
 package com.eofel.wp.views;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import com.eofel.wp.R;
-import android.support.v7.widget.Toolbar;
+import androidx.appcompat.widget.Toolbar;
 import android.view.MenuItem;
-import android.support.v4.widget.DrawerLayout;
+import androidx.drawerlayout.widget.DrawerLayout;
 import com.eofel.wp.utils.ViewController;
 import com.arlib.floatingsearchview.FloatingSearchView;
-import android.support.design.widget.NavigationView;
-import android.support.v4.app.Fragment;
+import com.google.android.material.navigation.NavigationView;
+import androidx.fragment.app.Fragment;
 import com.eofel.wp.content.HomeFragment;
-import com.google.android.gms.ads.InterstitialAd;
-import android.widget.Toast;
 import com.google.android.gms.ads.AdListener;
-import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.doubleclick.*;
 import java.util.List;
-import android.support.v4.view.GravityCompat;
+import androidx.core.view.GravityCompat;
 import com.eofel.wp.content.ListFragment;
 
 public class MainViews extends AppCompatActivity implements ViewController.ControllerCallback, NavigationView.OnNavigationItemSelectedListener {
